@@ -1,0 +1,42 @@
+cd /opt/ers400
+
+./ers-server.pl --server=vst0-eventrest-svcs-27556 --apachever=2.2
+
+vst0.eventcollection.
+
+
+
+
+[apache@server ers400]$ cd /opt/ers400
+[apache@server ers400]$ ./ers-server.pl --server=vst0-eventrest-svcs-27556 --apachever=2.2
+ers-server.pl - install an ERS 4.0 server instance
+Configuring for Apache 2.2
+
+Use threaded 'worker' MPM [y/n]? y
+Enable mod_perl [y/n]? n
+Enable mod_snmp [y/n]? n
+Modify the httpsd.conf to make additional adjustments.
+
+Server hostname (e.g. www.example.com) [vst0-eventrest-svcs-27556]? vst0.eventcollection.com
+Port for http:// traffic      [27556]? 27556
+Content directory (in /www/content/)? vst0-eventrest-svcs-27556
+Modify the workers.properties to make additional adjustments.
+
+New server instance created in
+        /opt/ers400/servers/vst0-eventrest-svcs-27556
+
+Thank you for choosing Covalent Enterprise Ready Server.
+
+
+cd  /opt/ers400/servers/vst0-eventrest-svcs-27556/bin
+[apache@server bin]$ ./apache_startup.sh start
+Starting Apache
+Server started OK
+
+
+
+restart apache after plugin 
+
+make sure plugin file has 777
+
+verification whether the apache instance is created already? look for the instance name under /opt/ers400/servers .... for eg: /opt/ers400/servers/vst0-eventrest-svcs-27556
