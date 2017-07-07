@@ -1,0 +1,66 @@
+Wed Oct 12 07:47:30 BST 2011
+
+Building MARS QMgr objects
+5724-H72 (C) Copyright IBM Corp. 1994, 2011.  ALL RIGHTS RESERVED.
+Starting MQSC for queue manager MARS.
+
+
+       : * -----------------------------------------------------------
+       : * build.ksh - Define MARS objects
+       : *
+       : * 20100303 T.Rob - New script
+       : * 20110227 T.Rob - Split out init to 00_ module
+       : *
+       : * -----------------------------------------------------------
+     1 : dis qmgr qmname
+AMQ8408: Display Queue Manager details.
+   QMNAME(MARS)                         
+       : 
+       : * Queue Manager Name MARS
+       : 
+       : 
+       : *Local Queue Defintions for Transmit Queueus
+       : 
+     2 : DEFINE QLOCAL ('VENUS') +
+       :        DESCR('Transmit queue VENUS') +
+       :        USAGE(XMITQ) +
+       :        TRIGGER +
+       :        TRIGTYPE(FIRST) +
+       :        INITQ('SYSTEM.CHANNEL.INITQ') +
+       :        REPLACE
+AMQ8006: WebSphere MQ queue created.
+       : 
+       : * Loopback queue
+     3 : DEFINE QREMOTE(MARS.VENUS.LPBK) +
+       :        RQMNAME(VENUS) +
+       :        RNAME(VENUS.MARS.LPBK) +
+       :        XMITQ(' ') +
+       :        REPLACE
+AMQ8006: WebSphere MQ queue created.
+       : 
+       : *  Channel Definitions
+       : 
+     4 : DEFINE CHANNEL ('MARS.VENUS') CHLTYPE(SDR) +
+       :        TRPTYPE(TCP) +
+       :        CONNAME('localhost(1414') +
+       :        DESCR('Sender Channel to VENUS ') +
+       :        XMITQ('VENUS') +
+       :        REPLACE
+AMQ8014: WebSphere MQ channel created.
+       : 
+     5 : RESET  CHANNEL ('MARS.VENUS')
+AMQ8023: WebSphere MQ channel reset.
+       : 
+     6 : DEFINE CHANNEL ('VENUS.MARS') CHLTYPE(RCVR) +
+       :        DESCR('Reciever channel from VENUS ') +	 
+       :        TRPTYPE(TCP) +
+       :        REPLACE
+AMQ8014: WebSphere MQ channel created.
+       : 
+       :   
+       : * -----------------------------------------------------------
+       : * E N D   O F   S C R I P T
+       : * -----------------------------------------------------------
+6 MQSC commands read.
+No commands have a syntax error.
+All valid MQSC commands were processed.

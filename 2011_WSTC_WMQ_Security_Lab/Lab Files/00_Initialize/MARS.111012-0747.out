@@ -1,0 +1,101 @@
+Wed Oct 12 07:47:20 BST 2011
+
+Ending any existing MARS queue manager instance
+WebSphere MQ queue manager 'MARS' ending.
+WebSphere MQ queue manager 'MARS' ended.
+Deleting any existing MARS queue manager instance
+WebSphere MQ queue manager 'MARS' deleted.
+Creating MARS queue manager
+WebSphere MQ queue manager created.
+Directory '/var/mqm/qmgrs/MARS' created.
+The queue manager is associated with installation 'Installation1'.
+Creating or replacing default objects for queue manager 'MARS'.
+Default objects statistics : 71 created. 0 replaced. 0 failed.
+Completing setup.
+Setup completed.
+Starting MARS queue manager
+WebSphere MQ queue manager 'MARS' starting.
+The queue manager is associated with installation 'Installation1'.
+5 log records accessed on queue manager 'MARS' during the log replay phase.
+Log replay for queue manager 'MARS' complete.
+Transaction manager state recovered for queue manager 'MARS'.
+WebSphere MQ queue manager 'MARS' started using V7.1.0.0.
+Building MARS QMgr objects
+5724-H72 (C) Copyright IBM Corp. 1994, 2011.  ALL RIGHTS RESERVED.
+Starting MQSC for queue manager MARS.
+
+
+       : * -----------------------------------------------------------
+       : * build.ksh - Define MARS objects
+       : *
+       : * 20110227 T.Rob - New script
+       : *
+       : * -----------------------------------------------------------
+     1 : dis qmgr qmname
+AMQ8408: Display Queue Manager details.
+   QMNAME(MARS)                         
+       : 
+       : * Queue Manager Name MARS
+       : 
+       : *Local Queues for testing auths
+       : 
+     2 : DEFINE QLOCAL ('AUTHORIZED.LOCAL.QUEUE') +
+       :        DESCR('For testing auths') +
+       :        REPLACE
+AMQ8006: WebSphere MQ queue created.
+       : 
+       : 
+       : *  SVRCONN Definitions
+       : 
+     3 : DEFINE CHANNEL ('SYSTEM.ADMIN.SVRCONN') CHLTYPE(SVRCONN) +
+       :        TRPTYPE(TCP) +
+       :        MCAUSER('mqm') +
+       :        REPLACE
+AMQ8014: WebSphere MQ channel created.
+       : 
+       : *  Create TCP Listener on port 1415
+     4 : DEFINE LISTENER(TCP.1415) TRPTYPE(TCP) +
+       :        CONTROL(QMGR) +
+       :        PORT(1415) +
+       :        REPLACE
+AMQ8626: WebSphere MQ listener created.
+       : 
+     5 : START LISTENER(TCP.1415)
+AMQ8021: Request to start WebSphere MQ listener accepted.
+       : 
+       : *  Create Trigger Monitor Service
+       : 
+     6 : DEFINE SERVICE(RUNMQTRM) +
+       :        CONTROL(QMGR) +
+       :        SERVTYPE(SERVER) +
+       :        STARTCMD('+MQ_INSTALL_PATH+bin/runmqtrm') +
+       :        STARTARG('-m +QMNAME+ -q SYSTEM.DEFAULT.INITIATION.QUEUE') +
+       :        STOPCMD('+MQ_INSTALL_PATH+bin/amqsstop') +
+       :        STOPARG('-m +QMNAME+ -p +MQ_SERVER_PID+')  +
+       :        REPLACE
+AMQ8625: WebSphere MQ service created.
+       : 
+     7 : START  SERVICE(RUNMQTRM)
+AMQ8733: Request to start Service accepted.
+       : 
+       : 	   
+       : * -----------------------------------------------------------
+       : * Standard QMgr alterations
+       : * -----------------------------------------------------------
+     8 : ALTER  QMGR DEADQ('MARS.DEAD.LETTER.QUEUE') +
+       :        FORCE
+AMQ8005: WebSphere MQ queue manager changed.
+       : 
+     9 : DEFINE QLOCAL ('MARS.DEAD.LETTER.QUEUE') +
+       : 	   DESCR('Queue Manger Dead Letter Queue Do not delete ') +
+       :        REPLACE
+AMQ8006: WebSphere MQ queue created.
+       : 
+    10 : ALTER QMGR AUTHOREV(ENABLED)
+AMQ8005: WebSphere MQ queue manager changed.
+       : * -----------------------------------------------------------
+       : * E N D   O F   S C R I P T
+       : * -----------------------------------------------------------
+10 MQSC commands read.
+No commands have a syntax error.
+All valid MQSC commands were processed.

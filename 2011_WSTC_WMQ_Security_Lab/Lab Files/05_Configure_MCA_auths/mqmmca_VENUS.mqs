@@ -1,0 +1,19 @@
+* Allow MCAUSER to connect.  Needs setall per IBM docs.
+SET AUTHREC OBJTYPE(QMGR) GROUP('mqmmca') AUTHADD(CONNECT, INQ, SETALL)
+
+* Grant MCAUSER default policy of "allow all" to all queues.  Channels
+* just put messages so no need for get, browse, etc.  Also needs setall.
+SET AUTHREC PROFILE('**') OBJTYPE(QUEUE) GROUP('mqmmca') AUTHADD(PUT, SETALL)
+
+* Now deny access to SYSTEM.** queues
+SET AUTHREC PROFILE('SYSTEM.**') OBJTYPE(QUEUE) GROUP('mqmmca') AUTHRMV(ALL)
+
+* And to transmit queues
+SET AUTHREC PROFILE('MARS') OBJTYPE(QUEUE) GROUP('mqmmca') AUTHRMV(ALL)
+
+* Grant access to the DLQ so the channel doesn't stop on delivery errors
+SET AUTHREC PROFILE('SYSTEM.DEAD.LETTER.QUEUE') OBJTYPE(QUEUE) GROUP('mqmmca') AUTHADD(PUT, SETALL)
+
+* Activate the security by placing the mqmmca user ID into the channel's
+* MCAUSER and restarting the channel:
+ALTER CHL(MARS.VENUS) CHLTYPE(RCVR) MCAUSER('mqmmca')

@@ -1,0 +1,37 @@
+Server Name: rwld552.rw.discoverfinancial.com
+JVM Name/Instance name: MQMonitor
+Port : 18120
+Please complete the following tickets using the details given below. 
+
+/opt/tcserver/v3.0.2/tcruntime-instance.sh create --template dfs-https -p dfs-https.port=18120 --instance-directory /opt/tcserver/servers --java-home /opt/tcserver/java/jre1.8.0_25-x64/ --version 7.0.57.A.RELEASE MQMonitor
+
+rm –Rf /opt/tcserver/servers/MQMonitor/logs
+ln –s /sys_data/tcserver/MQMonitor /opt/tcserver/servers/MQMonitor/logs    (make sure to type this in manually the ln -s command does not work with cut/paste.  Be careful not to make any typo)
+
+
+For each of the JVMs, create "ext-conf" folder under "/opt/tcserver/servers/MQMonitor/" 
+
+cd  "/opt/tcserver/servers/MQMonitor/bin
+cp setenv.sh setenv.sh.bkup11272015
+
+Remove the following -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=true  from setenv.sh file
+
+Add the following line in setenv.sh after replacing <JVNName>  with  corresponig JVM name after the line JAVA_HOME="/opt/tcserver/java/jre1.8.0_25-x64"
+CLASSPATH="$CLASSPATH:/opt/tcserver/servers/MQMon/ext-conf"    
+
+cd  "/opt/tcserver/servers/MQMonitor/webapps
+mkdir ROOT
+cd ROOT
+create index.jsp file with the following line in it
+MQMonitor on rwld552
+
+After restarting the tomcat instance,  
+
+Check the permission of /opt, /opt/tcserver,  /opt/tcserver/server, /sys_data/ and  /sys_data/tcserver/  to see all of them have 755.  If not, run the comand chmod 755 on the directory ( Don't use the -R or -r option to recursivley change the file/directory permission of all subdirectories/files )
+
+cd to /opt/tcserver/server and /sys_data/tcserver/  , then run the following commands
+find . -type d -exec chmod 755 {} \;
+find . -type f -exec chmod 644 {} \;
+for i in `find -H -type f |grep -E '\.war|\.sh' `; do chmod 750 $i; done
+
+Restart Tomcat instance that were created
