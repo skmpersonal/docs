@@ -1,0 +1,613 @@
+QMNAME(NACITIFT_QM)                                       STATUS(Running)
+QMNAME(FRCITIFT_QM)                                       STATUS(Running)
+Choose which QM to work with
+An error occurred while retrieving key information for the selected key label.
+
+
+
+Label: VeriSign Intermediate CA Certificate
+Key Size: 1024
+Version: X509 V3
+Serial Number: 46 FC EB BA B4 D0 2F 0F 92 60 98 23 3F 93 07 8F
+Issued By: Class 3 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: VeriSign, Inc.
+VeriSign Trust Network
+
+Valid From: Wednesday, April 16, 1997 8:00:00 PM EDT To: Monday, October 24, 2016 7:59:59 PM EDT
+Fingerprint: D5:59:A5:86:66:9B:08:F4:6A:30:A1:33:F8:A9:ED:3D:03:8E:2E:A8
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Extended Validation SSL SGC CA
+Key Size: 2048
+Version: X509 V3
+Serial Number: 2C 48 DD 93 0D F5 59 8E F9 3C 99 54 7A 60 ED 43
+Issued By: VeriSign Class 3 Public Primary Certification Authority - G5
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 3 Extended Validation SSL SGC CA
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Tuesday, November 7, 2006 7:00:00 PM EST To: Monday, November 7, 2016 6:59:59 PM EST
+Fingerprint: B1:80:39:89:98:31:F1:52:61:46:67:CF:23:FF:CE:A2:B0:E7:3D:AB
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 International Server CA - G3
+Key Size: 2048
+Version: X509 V3
+Serial Number: 64 1B E8 20 CE 02 08 13 F3 2D 4D 2D 95 D6 7E 67
+Issued By: VeriSign Class 3 Public Primary Certification Authority - G5
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 3 International Server CA - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Sunday, February 7, 2010 7:00:00 PM EST To: Friday, February 7, 2020 6:59:59 PM EST
+Fingerprint: B1:8D:9D:19:56:69:BA:0F:78:29:51:75:66:C2:5F:42:2A:27:71:04
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Public Primary Certification Authority - G5
+Key Size: 2048
+Version: X509 V3
+Serial Number: 25 0C E8 E0 30 61 2E 9F 2B 89 F7 05 4D 7C F8 FD
+Issued By: Class 3 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: VeriSign Class 3 Public Primary Certification Authority - G5
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Tuesday, November 7, 2006 7:00:00 PM EST To: Sunday, November 7, 2021 6:59:59 PM EST
+Fingerprint: 32:F3:08:82:62:2B:87:CF:88:56:C6:3D:B8:73:DF:08:53:B4:DD:27
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: Citigroup Entrust CA0 (PR) - V6.0
+Key Size: 1024
+Version: X509 V3
+Serial Number: 39 73 5B BB
+Issued By: Certification Authority
+Citigroup
+US
+Subject: Certification Authority
+Citigroup
+US
+Valid From: Monday, July 17, 2000 2:47:18 PM EDT To: Friday, July 17, 2020 3:17:18 PM EDT
+Fingerprint: 22:57:D0:55:E4:73:C0:0A:51:0B:B1:FB:DD:DB:5A:D7:73:3C:0E:AC
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: Citigroup Entrust CA1 (PR) - V7.0
+Key Size: 1024
+Version: X509 V3
+Serial Number: 45 3D 1C 54
+Issued By: Citigroup CA1
+US
+Subject: Citigroup CA1
+US
+Valid From: Monday, October 23, 2006 3:17:34 PM EDT To: Friday, October 23, 2026 3:47:34 PM EDT
+Fingerprint: 66:49:1F:D4:21:D7:A4:2E:26:79:91:EE:37:CB:4D:69:52:1F:AA:57
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: Entrust.net Global Secure Server Certification Authority
+Key Size: 1024
+Version: X509 V3
+Serial Number: 38 9B 11 3C
+Issued By: Entrust.net Secure Server Certification Authority
+www.entrust.net/SSL_CPS incorp. by ref. (limits liab.)
+Entrust.net
+
+Subject: Entrust.net Secure Server Certification Authority
+www.entrust.net/SSL_CPS incorp. by ref. (limits liab.)
+Entrust.net
+
+Valid From: Friday, February 4, 2000 12:20:00 PM EST To: Tuesday, February 4, 2020 12:50:00 PM EST
+Fingerprint: 89:39:57:6E:17:8D:F7:05:78:0F:CC:5E:C8:4F:84:F6:25:3A:48:93
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Entrust.net Global Client Certification Authority
+Key Size: 1024
+Version: X509 V3
+Serial Number: 38 9E F6 E4
+Issued By: Entrust.net Client Certification Authority
+www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.)
+Entrust.net
+
+Subject: Entrust.net Client Certification Authority
+www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.)
+Entrust.net
+
+Valid From: Monday, February 7, 2000 11:16:40 AM EST To: Friday, February 7, 2020 11:46:40 AM EST
+Fingerprint: CF:74:BF:FF:9B:86:81:5B:08:33:54:40:36:3E:87:B6:B6:F0:BF:73
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Entrust.net Client Certification Authority
+Key Size: 1024
+Version: X509 V3
+Serial Number: 38 03 91 EE
+Issued By: Entrust.net Client Certification Authority
+www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab.
+Entrust.net
+US
+Subject: Entrust.net Client Certification Authority
+www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab.
+Entrust.net
+US
+Valid From: Tuesday, October 12, 1999 3:24:30 PM EDT To: Saturday, October 12, 2019 3:54:30 PM EDT
+Fingerprint: DA:79:C1:71:11:50:C2:34:39:AA:2B:0B:0C:62:FD:55:B2:F9:F5:80
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Entrust.net Certification Authority (2048)
+Key Size: 2048
+Version: X509 V3
+Serial Number: 38 63 B9 66
+Issued By: Entrust.net Certification Authority (2048)
+www.entrust.net/CPS_2048 incorp. by ref. (limits liab.)
+Entrust.net
+
+Subject: Entrust.net Certification Authority (2048)
+www.entrust.net/CPS_2048 incorp. by ref. (limits liab.)
+Entrust.net
+
+Valid From: Friday, December 24, 1999 12:50:51 PM EST To: Tuesday, December 24, 2019 1:20:51 PM EST
+Fingerprint: 80:1D:62:D0:7B:44:9D:5C:5C:03:5C:98:EA:61:FA:44:3C:2A:58:FE
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: Entrust.net Secure Server Certification Authority
+Key Size: 1024
+Version: X509 V3
+Serial Number: 37 4A D2 43
+Issued By: Entrust.net Secure Server Certification Authority
+www.entrust.net/CPS incorp. by ref. (limits liab.)
+Entrust.net
+US
+Subject: Entrust.net Secure Server Certification Authority
+www.entrust.net/CPS incorp. by ref. (limits liab.)
+Entrust.net
+US
+Valid From: Tuesday, May 25, 1999 12:09:40 PM EDT To: Saturday, May 25, 2019 12:39:40 PM EDT
+Fingerprint: 99:A6:9B:E6:1A:FE:88:6B:4D:2B:82:00:7C:B8:54:FC:31:7E:15:39
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Secure Server CA
+Key Size: 2048
+Version: X509 V3
+Serial Number: 75 33 7D 9A B0 E1 23 3B AE 2D 7D E4 46 91 62 D4
+Issued By: Class 3 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: VeriSign Class 3 Secure Server CA
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Tuesday, January 18, 2005 7:00:00 PM EST To: Sunday, January 18, 2015 6:59:59 PM EST
+Fingerprint: 18:85:90:E9:48:78:47:8E:33:B6:19:4E:59:FB:BB:28:FF:08:88:D5
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Public Primary Certification Authority
+Key Size: 1024
+Version: X509 V1
+Serial Number: 70 BA E4 1D 10 D9 29 34 B6 38 CA 7B 03 CC BA BF
+Issued By: Class 3 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: Class 3 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Valid From: Sunday, January 28, 1996 7:00:00 PM EST To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 74:2C:31:92:E6:07:E4:24:EB:45:49:54:2B:E1:BB:C5:3E:61:74:E2
+Signature Algorithm: 1.2.840.113549.1.1.2
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 2 Public Primary Certification Authority
+Key Size: 1024
+Version: X509 V1
+Serial Number: 2D 1B FC 4A 17 8D A3 91 EB E7 FF F5 8B 45 BE 0B
+Issued By: Class 2 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: Class 2 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Valid From: Sunday, January 28, 1996 7:00:00 PM EST To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 67:82:AA:E0:ED:EE:E2:1A:58:39:D3:C0:CD:14:68:0A:4F:60:14:2A
+Signature Algorithm: 1.2.840.113549.1.1.2
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 1 Public Primary Certification Authority
+Key Size: 1024
+Version: X509 V1
+Serial Number: 00 CD BA 7F 56 F0 DF E4 BC 54 FE 22 AC B3 72 AA
+      55
+Issued By: Class 1 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Subject: Class 1 Public Primary Certification Authority
+VeriSign, Inc.
+US
+Valid From: Sunday, January 28, 1996 7:00:00 PM EST To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 90:AE:A2:69:85:FF:14:80:4C:43:49:52:EC:E9:60:84:77:AF:55:6F
+Signature Algorithm: 1.2.840.113549.1.1.2
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 4 Public Primary Certification Authority - G2
+Key Size: 1024
+Version: X509 V1
+Serial Number: 32 88 8E 9A D2 F5 EB 13 47 F8 7F C4 20 37 25 F8
+Issued By: Class 4 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Subject: Class 4 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Valid From: Sunday, May 17, 1998 8:00:00 PM EDT To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 0B:77:BE:BB:CB:7A:A2:47:05:DE:CC:0F:BD:6A:02:FC:7A:BD:9B:52
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Public Primary Certification Authority - G2
+Key Size: 1024
+Version: X509 V1
+Serial Number: 7D D9 FE 07 CF A8 1E B7 10 79 67 FB A7 89 34 C6
+Issued By: Class 3 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Subject: Class 3 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Valid From: Sunday, May 17, 1998 8:00:00 PM EDT To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 85:37:1C:A6:E5:50:14:3D:CE:28:03:47:1B:DE:3A:09:E8:F8:77:0F
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 2 Public Primary Certification Authority - G2
+Key Size: 1024
+Version: X509 V1
+Serial Number: 00 B9 2F 60 CC 88 9F A1 7A 46 09 B8 5B 70 6C 8A
+      AF
+Issued By: Class 2 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Subject: Class 2 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Valid From: Sunday, May 17, 1998 8:00:00 PM EDT To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: B3:EA:C4:47:76:C9:C8:1C:EA:F2:9D:95:B6:CC:A0:08:1B:67:EC:9D
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 1 Public Primary Certification Authority - G2
+Key Size: 1024
+Version: X509 V1
+Serial Number: 4C C7 EA AA 98 3E 71 D3 93 10 F8 3D 3A 89 91 92
+Issued By: Class 1 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Subject: Class 1 Public Primary Certification Authority - G2
+VeriSign, Inc.
+US
+Valid From: Sunday, May 17, 1998 8:00:00 PM EDT To: Tuesday, August 1, 2028 7:59:59 PM EDT
+Fingerprint: 27:3E:E1:24:57:FD:C4:F9:0C:55:E8:2B:56:16:7F:62:F5:32:E5:47
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 4 Public Primary Certification Authority - G3
+Key Size: 2048
+Version: X509 V1
+Serial Number: 00 EC A0 A7 8B 6E 75 6A 01 CF C4 7C CC 2F 94 5E
+      D7
+Issued By: VeriSign Class 4 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 4 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Thursday, September 30, 1999 8:00:00 PM EDT To: Wednesday, July 16, 2036 7:59:59 PM EDT
+Fingerprint: C8:EC:8C:87:92:69:CB:4B:AB:39:E9:8D:7E:57:67:F3:14:95:73:9D
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 3 Public Primary Certification Authority - G3
+Key Size: 2048
+Version: X509 V1
+Serial Number: 00 9B 7E 06 49 A3 3E 62 B9 D5 EE 90 48 71 29 EF
+      57
+Issued By: VeriSign Class 3 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 3 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Thursday, September 30, 1999 8:00:00 PM EDT To: Wednesday, July 16, 2036 7:59:59 PM EDT
+Fingerprint: 13:2D:0D:45:53:4B:69:97:CD:B2:D5:C3:39:E2:55:76:60:9B:5C:C6
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 2 Public Primary Certification Authority - G3
+Key Size: 2048
+Version: X509 V1
+Serial Number: 61 70 CB 49 8C 5F 98 45 29 E7 B0 A6 D9 50 5B 7A
+Issued By: VeriSign Class 2 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 2 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Thursday, September 30, 1999 8:00:00 PM EDT To: Wednesday, July 16, 2036 7:59:59 PM EDT
+Fingerprint: 61:EF:43:D7:7F:CA:D4:61:51:BC:98:E0:C3:59:12:AF:9F:EB:63:11
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: VeriSign Class 1 Public Primary Certification Authority - G3
+Key Size: 2048
+Version: X509 V1
+Serial Number: 00 8B 5B 75 56 84 54 85 0B 00 CF AF 38 48 CE B1
+      A4
+Issued By: VeriSign Class 1 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: VeriSign Class 1 Public Primary Certification Authority - G3
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Valid From: Thursday, September 30, 1999 8:00:00 PM EDT To: Wednesday, July 16, 2036 7:59:59 PM EDT
+Fingerprint: 20:42:85:DC:F7:EB:76:41:95:57:8E:13:6B:D4:B7:D1:E9:8E:46:A5
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+
+
+
+
+Label: Thawte Personal Premium CA
+Key Size: 1024
+Version: X509 V3
+Serial Number: 00
+Issued By: Thawte Personal Premium CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Subject: Thawte Personal Premium CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Valid From: Sunday, December 31, 1995 7:00:00 PM EST To: Thursday, December 31, 2020 6:59:59 PM EST
+Fingerprint: 36:86:35:63:FD:51:28:C7:BE:A6:F0:05:CF:E9:B4:36:68:08:6C:CE
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Thawte Personal Freemail CA
+Key Size: 1024
+Version: X509 V3
+Serial Number: 00
+Issued By: Thawte Personal Freemail CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Subject: Thawte Personal Freemail CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Valid From: Sunday, December 31, 1995 7:00:00 PM EST To: Thursday, December 31, 2020 6:59:59 PM EST
+Fingerprint: 20:99:00:B6:3D:95:57:28:14:0C:D1:36:22:D8:C6:87:A4:EB:00:85
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Thawte Personal Basic CA
+Key Size: 1024
+Version: X509 V3
+Serial Number: 00
+Issued By: Thawte Personal Basic CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Subject: Thawte Personal Basic CA
+Certification Services Division
+Thawte Consulting
+Cape Town, Western Cape, ZA
+Valid From: Sunday, December 31, 1995 7:00:00 PM EST To: Thursday, December 31, 2020 6:59:59 PM EST
+Fingerprint: 40:E7:8C:1D:52:3D:1C:D9:95:4F:AC:1A:1A:B3:BD:3C:BA:A1:5B:FC
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Thawte Premium Server CA
+Key Size: 1024
+Version: X509 V3
+Serial Number: 01
+Issued By: Thawte Premium Server CA
+Certification Services Division
+Thawte Consulting cc
+Cape Town, Western Cape, ZA
+Subject: Thawte Premium Server CA
+Certification Services Division
+Thawte Consulting cc
+Cape Town, Western Cape, ZA
+Valid From: Wednesday, July 31, 1996 8:00:00 PM EDT To: Thursday, December 31, 2020 6:59:59 PM EST
+Fingerprint: 62:7F:8D:78:27:65:63:99:D2:7D:7F:90:44:C9:FE:B3:F3:3E:FA:9A
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: Thawte Server CA
+Key Size: 1024
+Version: X509 V3
+Serial Number: 01
+Issued By: Thawte Server CA
+Certification Services Division
+Thawte Consulting cc
+Cape Town, Western Cape, ZA
+Subject: Thawte Server CA
+Certification Services Division
+Thawte Consulting cc
+Cape Town, Western Cape, ZA
+Valid From: Wednesday, July 31, 1996 8:00:00 PM EDT To: Thursday, December 31, 2020 6:59:59 PM EST
+Fingerprint: 23:E5:94:94:51:95:F2:41:48:03:B4:D5:64:D2:A3:A3:F5:D8:8B:8C
+Signature Algorithm: 1.2.840.113549.1.1.4
+Trust Status: enabled
+
+
+
+
+
+Label: RSA Secure Server Certification Authority
+Key Size: 1000
+Version: X509 V1
+Serial Number: 02 AD 66 7E 4E 45 FE 5E 57 6F 3C 98 19 5E DD C0
+Issued By: Secure Server Certification Authority
+RSA Data Security, Inc.
+US
+Subject: Secure Server Certification Authority
+RSA Data Security, Inc.
+US
+Valid From: Tuesday, November 8, 1994 7:00:00 PM EST To: Thursday, January 7, 2010 6:59:59 PM EST
+Fingerprint: 44:63:C5:31:D7:CC:C1:00:67:94:61:2B:B6:56:D3:BF:82:57:84:6F
+Signature Algorithm: 1.2.840.113549.1.1.2
+Trust Status: enabled
+
+
+
+
+
+Label: ibmwebspheremqnacitift_qm
+Key Size: 2048
+Version: X509 V3
+Serial Number: 21 6A BC 52 D8 F6 6F 86 31 54 84 83 FF 27 9E D4
+Issued By: VeriSign Class 3 Extended Validation SSL SGC CA
+VeriSign Trust Network
+VeriSign, Inc.
+US
+Subject: ibmwebspheremqnacitift_qm.citigroup.com
+Distributed MQ Services
+Citigroup Inc.
+New York, New York, 10043, US
+Valid From: Sunday, January 13, 2013 7:00:00 PM EST To: Monday, March 2, 2015 6:59:59 PM EST
+Fingerprint: B1:DF:11:8F:3D:7B:CF:13:95:57:AB:E9:4B:17:1F:0F:99:2A:B2:BB
+Signature Algorithm: 1.2.840.113549.1.1.5
+Trust Status: enabled
+
+

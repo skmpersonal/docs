@@ -1,0 +1,40 @@
+dis qstatus(*) where (curdepth gt 0) ALL
+dis chs(*) where (status eq RETRYING)
+dis chs(*) where(status NE RUNNING)
+dis chs(*) where(status EQ STOPPED)
+dis chs(*) where(status EQ RUNNING)
+dis ql(*) curdepth where(usage EQ XMITQ)
+dis chs(*) where(chltype NE SVRCONN)
+dis chs(*) where(chltype EQ SVRCONN)
+dis chs(*) where(indoubt EQ YES)
+dis qs(*) where(uncom EQ YES)
+dis conn(*) where (appltype eq USER) pid connopts appltag userid channel
+dis qmgr crdate 
+dis qmgr all
+dis chl(*)
+dis chl(*) type(SDR)
+dis chl(*) type(SVR)
+dis chl(*) type(RCVR)
+dis chl(*) type(SVRCONN)
+dis chl(*) type(SVRCONN) all
+dis chl(*) type(SVRCONN) SSLCIPH
+dis chl(*) type(SDR) conname
+dis chl(*) type(SDR) xmitq
+dis chl(*) type(SVR) xmitq
+dis chl(*) where(SSLCIPH NE '')
+dis chl(*) where(SCYDATA ne '')
+dis chs(*)
+dis chs(*) saved
+dis chs(*) all
+dis chs(*) saved all
+dis q (*)
+dis ql(*)
+dis qr(*)
+dis qa(*)
+dis qm(*)
+dis ql(*) defpsist
+dis ql(*) curdepth
+DIS LSSTATUS(*) all
+DIS SVSTATUS(*) all
+DIS SERVICE(*) all
+refresh security type(ssl)

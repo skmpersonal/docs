@@ -1,0 +1,18 @@
+INFORMACIÓN SOBRE LICENCIA
+
+Los Programas que se enumeran a continuación son programas bajo licencia sujetos a los siguientes términos y condiciones adicionalmente a los contenidos en el Acuerdo Internacional de Licencias para Programas sin Garantía.
+
+Nombre de Programa: IBM WebSphere MQ Save Queue Manager object definitions using PCFs Identifier Supportpac MS03 V6.1
+Número de Programa: tools
+Autorización para el Uso en Sistemas Personales/Portátiles: El Programa se puede almacenar en la máquina principal y en otra máquina, siempre que el Programa no esté activo en ambas máquinas al mismo tiempo.
+
+Derechos de Uso limitado para Otros Programas IBM
+
+Si el Cliente ha adquirido este Programa como parte de otro Programa IBM ("Programa Principal"), en la licencia del Programa Principal se enumerará este Programa bajo el apartado "Otros Programas IBM". En dicho caso, el Cliente recibirá este Programa sólo para dar soporte al Programa Principal y los derechos para el uso de este Programa estarán limitados por la licencia del Programa Principal. Póngase en contacto con su Representante de Ventas de IBM si desea adquirir una licencia separada de este Programa que no esté limitada por los términos de licencia del Programa Principal.
+
+Entorno Operativo Especificado
+
+La información de las especificaciones y el entorno operativo especificado del Programa puede encontrarse en un documento que acompaña el Programa, si está disponible, como por ejemplo, un archivo readme, u otra información publicada por IBM como, por ejemplo, una carta de anuncio. El Cliente acepta que dicha documentación y otros contenidos del Programa puede que sólo se suministren en inglés.
+
+D/N:  L-TMAN-7GSE4D
+P/N:  L-TMAN-7GSE4D 

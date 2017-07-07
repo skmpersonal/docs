@@ -1,0 +1,18 @@
+LÝSANS BÝLGÝLERÝ
+
+Aþaðýda listelenen programlar, Garantisi Verilmeyen Programlar Ýçin Uluslararasý Program Lisansý Sözleþmesi kayýt ve koþullarýna ek olarak aþaðýdaki kayýt ve koþullar kapsamýnda lisanslanmýþtýr.
+
+Program Adý: IBM WebSphere MQ Save Queue Manager object definitions using PCFs Identifier Supportpac MS03 V6.1
+Program Numarasý: tools
+Evde Kullaným için Yetki/Taþýnabilir Bilgisayarda Kullaným için Yetki: Programýn, her iki makinede ayný anda etkin kullanýmda olmamasý koþuluyla birincil makineye ve bir baþka makineye depolanabileceði anlamýndadýr.
+
+Diðer IBM Programlarý için Sýnýrlý Kullaným Haklarý
+
+Bu Programý, "Diðer IBM Programlarý" kapsamýnda sýnýflandýran baþka bir IBM Programý'nýn ("Asýl Program") bir bölümü olarak edindiyseniz, bu Programý yalnýzca Asýl Programý desteklemek amacýyla almýþ olursunuz ve Asýl Programýn lisansýnda bu Programý kullaným haklarýnýz sýnýrlanýr. Bu Programa iliþkin olarak Asýl Programýn lisans koþullarý tarafýndan sýnrýlandýrýlmayan ayrý bir lisans edinmek istiyorsanýz, lütfen IBM Satýþ Temsilcinizle baðlantý kurun.
+
+Tanýmlanmýþ Ýþletim Ortamý
+
+Programýn belirtimleri ve tanýmlanmýþ iþletim ortamý bilgileri, Programla birlikte gönderilen, varsa READ-ME dosyasý gibi belgelerde veya IBM tarafýndan yayýnlanan duyuru mektubu gibi diðer bilgilerde bulunabilir. Bu tür belgelerin ve diðer Programa iliþkin içeriðin yalnýzca Ýngilizce olarak saðlanabileceðini kabul edersiniz.
+
+D/N:  L-TMAN-7GSE4D
+P/N:  L-TMAN-7GSE4D 

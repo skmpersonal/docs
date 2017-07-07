@@ -1,0 +1,37 @@
+#!/usr/bin/ksh
+echo
+let "myrand=RANDOM%(37-32+1)+32"
+#echo $myrand
+printf '\033[1;'${myrand}';40m '
+cal
+date
+echo
+echo "Hostname: " `hostname`
+echo
+echo '======================================================================================================='
+echo
+echo '  MQ Queue Manager                                         Current Status'
+echo
+dspmq
+echo
+printf '\033[0m'
+SCRIPTDIR="/net/mqclus1/export/zones/mqclz1/root/export/opt/mqsupport/setup_7.0_Solaris_M7/testscripts"
+IFS="
+"
+select x in $(cat /var/mqm/testscripts/menu.lst) exit
+do
+#echo off  
+cd /var/mqm/testscripts
+#echo on
+if [[ $x = "exit" ]];then
+   exit
+else
+   . /var/mqm/testscripts/$x
+fi
+#. /net/mqclus1/export/zones/mqclz1/root/export/opt/mqsupport/setup_7.0_Solaris_M7/testscripts/$x
+break
+done
+echo "************* Script Execution Done *************** Ctrl C to quit before clear screen **************"
+read nothing
+echo `clear`
+. ./menu

@@ -1,0 +1,18 @@
+INFORMATIONS SUR LA LICENCE
+
+Les dispositions suivantes s'ajoutent à celles contenues dans le document Conditions Internationales d'Utilisation de Logiciels IBM non garantis, pour l'utilisation des Logiciels indiqués ci-dessous.
+
+Nom du Logiciel : IBM WebSphere MQ Save Queue Manager object definitions using PCFs Identifier Supportpac MS03 V6.1
+Référence du Logiciel : tools
+Autorisation d'utilisation sur un ordinateur familial ou portable autre que la machine principale : Le Logiciel peut être installé sur la machine principale et sur une autre machine, sous réserve qu'il ne soit pas utilisé sur les deux machines en même temps.
+
+Droits d'utilisation restreinte des Autres Logiciels IBM
+
+Si Vous avez acquis une licence de ce Logiciel dans le cadre d'un autre Logiciel IBM (le "Logiciel Principal") qui répertorie ce Logiciel dans la section "Autres Logiciels IBM", Vous avez reçu ce Logiciel uniquement en support du Logiciel Principal et Vos droits d'utilisation de ce Logiciel sont limités par la licence du Logiciel Principal. Veuillez prendre contact avec Votre ingénieur commercial IBM si Vous souhaitez acquérir une licence distincte de ce Logiciel non limitée par les dispositions de licence du Logiciel Principal.
+
+Environnement Opérationnel Spécifié
+
+Les spécifications du Logiciel et les informations relatives à l'Environnement Opérationnel Spécifié se trouvent dans la documentation fournie avec le Logiciel, le cas échéant, par exemple, un fichier "README" ou dans tout autre document d'information, tel qu'une lettre d'annonce. Vous reconnaissez que ladite documentation et que le contenu d'autres Logiciels puissent n'être rédigés qu'en anglais.
+
+D/N:  L-TMAN-7GSE4D
+P/N:  L-TMAN-7GSE4D 

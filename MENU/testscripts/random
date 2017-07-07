@@ -1,0 +1,3 @@
+# x=lower limit; y=upper limit 
+let "myrand=RANDOM%(37-32+1)+32" 
+print -r -- $myrand 

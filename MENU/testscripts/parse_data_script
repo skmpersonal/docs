@@ -1,0 +1,11 @@
+#       Step #1 - Parse raw data into files
+
+        for i in localq xmitq remoteq aliasq svrconn allchan
+        do
+                cat ${i}-d | awk -F\) '{ print $1 }' | awk -F\( '{ print $2 }' >> ${i}
+        done
+	cat allchan | grep -v CHANNEL >allchan
+
+        exit 0
+
+

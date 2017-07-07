@@ -1,0 +1,15 @@
+channel_display_all_info.sh
+queue_display_all_info.sh
+commonly_used_mqsc_commands.sh
+commonly_used_mqsc_commands_out_vi.sh
+channel_NE_RUNNING.sh
+view_error_logfile.sh
+testmqlist_ask_for.sh
+testmqlist.sh
+backupqmgr.ksh
+backupqmr_sep_auth.ksh
+view_permissions.sh
+dsp_mqm_ipcs
+commonly_used_unix_commands.sh
+listcert.sh
+menu1
